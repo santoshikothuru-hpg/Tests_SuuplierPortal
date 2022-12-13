@@ -12,7 +12,9 @@ steps:
     displayName: Run a multi-line script
 
 
-  
+  - task: CmdLine@2
+    inputs:
+      script: 'npm install -D @playwright/test'
   - task: CmdLine@2
     inputs:
       script: |
