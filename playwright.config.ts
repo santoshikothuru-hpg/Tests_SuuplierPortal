@@ -13,8 +13,7 @@ use: {
 actionTimeout: 0,
 ignoreHTTPSErrors: true,
 trace: 'on-first-retry',
-headless: true,
-channel: 'firefox'
+headless: true
 },
 
 //testMatch: ["SupplierPortalOffNetwork.test.ts"],
