@@ -13,7 +13,7 @@ use: {
 actionTimeout: 0,
 ignoreHTTPSErrors: true,
 trace: 'on-first-retry',
-headless: false,
+headless: true,
 channel: 'firefox'
 },
 
