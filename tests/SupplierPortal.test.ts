@@ -1,7 +1,7 @@
 import { test, expect, Page } from '@playwright/test';
+import { devices } from '@playwright/test';
 
-
-
+test.use(devices['Desktop Firefox']);
 test.describe('SP Login Testing', () => {
 
 test.beforeEach(async ({ page }) => {

@@ -1,4 +1,5 @@
 import type { PlaywrightTestConfig } from '@playwright/test';
+import { devices } from '@playwright/test';
 
 const config: PlaywrightTestConfig = {
 testDir: './tests',
@@ -13,10 +14,13 @@ actionTimeout: 0,
 ignoreHTTPSErrors: true,
 trace: 'on-first-retry',
 headless: false,
+channel: 'firefox'
 },
 
 //testMatch: ["SupplierPortalOffNetwork.test.ts"],
 
 };
+
+
 
 export default config;
